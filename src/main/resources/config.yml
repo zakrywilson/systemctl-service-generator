@@ -1,1 +1,13 @@
-home: /usr/share/ai-solutions/bmc2
+# App information
+serviceName: SystemCtl Service Generator
+serviceVersion: 0.0.0
+
+# Logging configuration
+logging:
+  level: INFO
+  loggers:
+    com.zakrywilson: TRAC
+
+# Application home directory
+appHomeDir: /usr/share/ai-solutions/bmc2
+deliveryDir: /tmp/bmc2
